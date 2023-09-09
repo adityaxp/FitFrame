@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/homeButton"
+        android:background="@drawable/menu"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Select a plan"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/headingTextView"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/headingTextView"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:paddingLeft="12dp"
+        android:id="@+id/itemOneLayout"
+        android:background="@drawable/custom_frame_default">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/intro1"
+            android:id="@+id/imageView1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imageView1"
+            android:text="Measure dimensions"
+            android:fontFamily="@font/inter_bold"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/headingTextView1"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headingTextView1"
+            android:layout_toEndOf="@id/imageView1"
+            android:text="Get accurate measurements in seconds with just a photo."
+            android:fontFamily="@font/inter"
+            android:textSize="14sp"
+            android:layout_marginLeft="8dp"
+            android:padding="5dp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemOneLayout"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/oralt"
+        android:id="@+id/orImageView"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/orImageView"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:paddingLeft="12dp"
+        android:id="@+id/itemTwoLayout"
+        android:background="@drawable/custom_frame_default">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/intro2"
+            android:id="@+id/imageView2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imageView2"
+            android:text="Improve your posture"
+            android:fontFamily="@font/inter_bold"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/headingTextView2"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headingTextView2"
+            android:layout_toEndOf="@id/imageView2"
+            android:text="Get real-time feedback in seconds with just a photo or a video."
+            android:fontFamily="@font/inter"
+            android:textSize="14sp"
+            android:layout_marginLeft="8dp"
+            android:padding="5dp"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

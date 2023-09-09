@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostureResultActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_back"
+        android:id="@+id/backImageButton"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Posture Reports"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="20sp"
+        android:textColor="#D86800"
+        android:id="@+id/headingTextView"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headingTextView"
+        android:textSize="20sp"
+        android:text="Posture Angle"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/inter"
+        android:id="@+id/postureAngleTextView"
+        />
+
+
+    <EditText
+        android:id="@+id/postureAngleEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:maxLength="6"
+        android:textAlignment="center"
+        android:layout_alignTop="@id/postureAngleTextView"
+        android:background="@drawable/custom_input_square"
+        android:layout_toRightOf="@id/postureAngleTextView" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/postureAngleTextView"
+        android:textSize="20sp"
+        android:text="Result"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/inter"
+        android:id="@+id/resultTextView"
+        />
+
+    <EditText
+        android:id="@+id/resultAngleEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:layout_alignStart="@id/postureAngleEditText"
+        android:textAlignment="center"
+        android:layout_alignTop="@id/resultTextView"
+        android:background="@drawable/custom_input_square"
+        android:layout_toRightOf="@id/resultTextView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextButton"
+        android:layout_below="@id/resultAngleEditText"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFF"
+        />
+
+</RelativeLayout>

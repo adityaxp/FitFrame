@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/backButton"
+        android:background="@drawable/ic_back"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Fit Frame"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="20sp"
+        android:textColor="#D86800"
+        android:id="@+id/headingTextView"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backButton"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/userProfileImageView"
+        android:src="@drawable/ic_user_profile"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/userProfileImageView"
+        android:layout_alignTop="@id/userProfileImageView"
+        android:text="Your Profile"
+        android:fontFamily="@font/inter_bold"
+        android:id="@+id/userProfileTextView"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userProfileImageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/cloudSavesImageView"
+        android:src="@drawable/ic_cloud"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cloudSavesImageView"
+        android:layout_alignTop="@id/cloudSavesImageView"
+        android:text="Cloud Saves"
+        android:id="@+id/cloudSavesTextView"
+        android:fontFamily="@font/inter_bold"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cloudSavesImageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/aboutImageView"
+        android:src="@drawable/baseline_info_24"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/aboutImageView"
+        android:layout_alignTop="@id/aboutImageView"
+        android:text="About"
+        android:id="@+id/aboutTextView"
+        android:fontFamily="@font/inter_bold"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutImageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/logOutImageView"
+        android:src="@drawable/ic_log_out"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/logOutImageView"
+        android:layout_alignTop="@id/logOutImageView"
+        android:text="Log Out"
+        android:id="@+id/logOutTextView"
+        android:fontFamily="@font/inter_bold"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+
+</RelativeLayout>

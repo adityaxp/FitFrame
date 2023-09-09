@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664234684967",
+    "project_id": "fitframe-5a029",
+    "storage_bucket": "fitframe-5a029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664234684967:android:57b59b59bc9d4eda605402",
+        "android_client_info": {
+          "package_name": "com.aditya.fitframe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664234684967-r586fbtgap9scjrdrj1mn1qvn78en1rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDtT3UXpJTCJBTrdcXJpiEF4KDvK1m69Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664234684967-r586fbtgap9scjrdrj1mn1qvn78en1rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

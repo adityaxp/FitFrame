@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 24 min SDK version: x86",
+    "file_": "C:\\Users\\Aditya\\AndroidStudioProjects\\FitFrame\\sdk\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 346230999
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027C:\\Users\\Aditya\\AndroidStudioProjects\\FitFrame\\sdk\\.cxx\\RelWithDebInfo\\7331t3k5\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "C:\\Users\\Aditya\\AndroidStudioProjects\\FitFrame\\sdk\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 889932127
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\Aditya\\AndroidStudioProjects\\FitFrame\\sdk\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1534093725
+  }
+]

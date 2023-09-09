@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppIntroductionActivity">
+
+    <ImageView
+        android:layout_width="251dp"
+        android:layout_height="251dp"
+        android:src="@drawable/intro1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/introImageView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/introImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Know Your Body Better"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:id="@+id/headingTextView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headingTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter"
+        android:textAlignment="center"
+        android:text="Get accurate measurements in seconds \nwith just a photo."
+        android:textSize="14sp"
+        android:id="@+id/titleTextView"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextButton"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@id/headingTextView"
+        android:layout_alignEnd="@id/headingTextView"
+        android:background="@drawable/custom_button"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Skip"
+        android:id="@+id/skipTextView"
+        android:fontFamily="@font/inter"
+        android:textSize="15sp"
+        android:textColor="#D86800"
+        android:textStyle="bold"
+        />
+    
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/invisibleLifeSaver"
+        />
+
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/counterOneButton"
+        android:src="@drawable/counter"
+        android:layout_alignRight="@id/invisibleLifeSaver"
+        />
+
+
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/counterTwoButton"
+        android:src="@drawable/counteralt"
+        android:layout_alignLeft="@id/invisibleLifeSaver"
+        />
+
+
+</RelativeLayout>

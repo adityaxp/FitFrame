@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeasureDimensionsActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/menu"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Measure dimensions"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="20sp"
+        android:textColor="#D86800"
+        android:id="@+id/headingTextView"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_below="@id/headingTextView"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:src="@drawable/capturephoto"
+        android:id="@+id/capturePhotoImageView"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_below="@id/capturePhotoImageView"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Make sure the image clearly captures complete front view"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#D86800"
+        android:textStyle="bold"
+        android:id="@+id/infoTextView"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@id/infoTextView"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/upload"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/uploadImageView"
+        android:scaleType="fitXY"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:layout_below="@id/uploadImageView"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
