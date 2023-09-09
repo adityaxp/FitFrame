@@ -4,6 +4,6 @@ Fit Frame is a software platform that utilizes sophisticated image processing al
 <hr>
 <h1> App Screenshots </h1> 
 <hr>
-<img src="Images/1.png" width="180" height= "320"> <img src="Images/2.png" width="180" height= "320"> <img src="Images/3.png" width="180" height= "320"> <img src="Images/4.png" width="180" height= "320">
+<img src="Images/1.png" width="180" height= "320"><img src="Images/2.png" width="180" height= "320"><img src="Images/3.png" width="180" height= "320"> <img src="Images/4.png" width="180" height= "320">
 <img src="Images/5.png" width="180" height= "320"> <img src="Images/6.png" width="180" height= "320"> <img src="Images/7.png" width="180" height= "320"> <img src="Images/8.png" width="180" height= "320">
 <img src="Images/9.png" width="180" height= "320"> <img src="Images/10.png" width="180" height= "320"> 
